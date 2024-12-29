@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         RGB_TOG,  RGB_MOD,  RGB_VAI,  RGB_HUI,  RGB_SAI,  RGB_SPI,  _______,  _______,  _______,  _______,  _______,  _______,  _______,                      _______,
         _______,  RGB_RMOD, RGB_VAD,  RGB_HUD,  RGB_SAD,  RGB_SPD,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,            _______,
         _______,  _______,  _______,  _______,  _______,  _______,  BAT_LVL,  NK_TOGG,  _______,  _______,  _______,  _______,  _______,  _______,
-        _______,  GU_TOGG,  _______,                                _______,                      MO(L2),  _______,  _______,  _______,  _______,  _______),
+        _______,  GU_TOGG,  _______,                                _______,                      MO(L2),  _______,  MO(L3),  _______,  _______,  _______),
 
     [L2] = LAYOUT_iso_83(
         _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,            _______,
@@ -64,7 +64,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
     [BASE] = {ENCODER_CCW_CW(KC_VOLD, KC_VOLU)},
     [FN] = {ENCODER_CCW_CW(KC_WH_U, KC_WH_D)},
-    [L2] = {ENCODER_CCW_CW(RGB_VAD, RGB_VAI)},
+    [L2] = {ENCODER_CCW_CW(KC_WH_L, KC_WH_R)},
     [L3] = {ENCODER_CCW_CW(RGB_VAD, RGB_VAI)}
 };
 #endif
