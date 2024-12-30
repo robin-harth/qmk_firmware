@@ -14,7 +14,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-//#ifdef ENABLE_RGB_MATRIX_FLOWER_BLOOMING
+#ifdef ENABLE_RGB_MATRIX_FLOWER_BLOOMING
 RGB_MATRIX_EFFECT(FLOWER_BLOOMING)
 #    ifdef RGB_MATRIX_CUSTOM_EFFECT_IMPLS
 
@@ -50,4 +50,4 @@ bool FLOWER_BLOOMING(effect_params_t* params) {
 }
 
 #    endif // RGB_MATRIX_CUSTOM_EFFECT_IMPLS
-//#endif     // ENABLE_RGB_MATRIX_FLOWER_BLOOMING
+#endif     // ENABLE_RGB_MATRIX_FLOWER_BLOOMING
